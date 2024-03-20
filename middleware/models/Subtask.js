@@ -2,7 +2,7 @@ require("dotenv").config();
 
 // models/Subtask.js
 const mongoose = require("mongoose");
-const connectDB = require("./db"); // Import the connectDB function
+const connectDB = require("./middleware/models/db"); // Import the connectDB function
 
 // Call the connectDB function to establish the connection
 connectDB();
